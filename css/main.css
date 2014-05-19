@@ -1,0 +1,154 @@
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,800,700,600,300);
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+@import url(http://fonts.googleapis.com/css?family=Raleway:400,900,800,700,600,500,300,200,100);
+
+body{
+	background-color: #91374b !important;
+	font-family: Open Sans, Droid Sans;
+}
+
+h1 h2 h3 h4 h5{
+	font-family: Raleway!important;
+}
+a{
+	text-decoration: none!important;
+}
+.center{
+	text-align: center;
+}
+h5{
+	color: #fff!important;
+}
+
+.focus{
+	color: #91374b;
+}
+.search-icon{
+	width: 20px;
+	height: 20px;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+.kotak-nav{
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	background-color: #ec2e5a;
+}
+.kotak-nav div a{
+	text-decoration: none;
+	color: #fffce1;
+	font-size: 16;
+}
+.banner{
+	padding-top: 1rem;
+	background-color: #fffce1;
+}
+.navicon{
+	position: absolute;
+z-index: 5;
+display: inline-block;
+top: 80%;
+}
+.kiri{
+	left: 50%
+}
+
+.kanan{
+	right: 50%
+}
+
+
+.kotak-judul{
+	display: block;
+	background-color: #f7f2d2;
+	margin-top: 1rem;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.kotak-isi-pertama{
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	background-color: #58ab99;
+	color: #fff;
+}
+
+.kotak-isi-kedua{
+	background-color: #ec2e5a;
+}
+.kotak-isi-ketiga{
+	background-color: #91374b;
+}
+.kotak-isi-keempat{
+	background-color: #58ab99;
+}
+
+.hijau{
+	color: #58ab99!important;
+}
+
+.kotak-tab-1{
+	padding: 1rem;
+	background-color: #5b1c47;
+}
+.arrow{
+	width: 50px;
+	z-index: 10;
+}
+.samping{
+
+	top: 50%;
+	margin-left: -40px;
+}
+.bawah{
+	margin-top: -75px;
+}
+.atas{
+	margin-top: -25px;
+}
+
+.kotak-tab-1 a{
+	text-decoration: none;
+	color: #fff;
+}
+.kotak-tab-1:hover{
+	background-color: #f7f2d2;
+}
+.kotak-tab-1 a:hover{
+	color: #5b1c47;
+}
+.kotak-tab-2{
+	padding: 1rem;
+	background-color: #91374b;
+}
+.kotak-tab-2 a{
+	text-decoration: none;
+	color: #fff;
+}
+.kotak-tab-2:hover{
+	background-color:#f7f2d2 ;
+}
+.kotak-tab-2 a:hover{
+	color: #91374b;
+}
+
+.show{
+	background-color: #fff;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+.show2{
+	background-color: #ec2e5a;
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+.mini-icon{
+	width: 20px;
+}
+.footer{
+	background-color: #272727;
+	color: #fff;
+	padding: 3rem  3rem 3rem 10rem ;
+	/*padding-left: 10rem;*/
+}
